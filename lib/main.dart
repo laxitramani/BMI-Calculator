@@ -1,4 +1,3 @@
-import 'package:bmi_calculator/Screens/ResultsPage.dart';
 import 'package:flutter/material.dart';
 import 'package:bmi_calculator/Screens/InputPage.dart';
 

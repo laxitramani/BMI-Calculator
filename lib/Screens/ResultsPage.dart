@@ -2,7 +2,6 @@ import 'package:bmi_calculator/Components/BotomButton.dart';
 import 'package:bmi_calculator/Constants.dart';
 import 'package:bmi_calculator/Components/ReusableCard.dart';
 import 'package:flutter/material.dart';
-import 'InputPage.dart';
 
 class ResultsPage extends StatelessWidget {
   ResultsPage(
@@ -10,9 +9,9 @@ class ResultsPage extends StatelessWidget {
       @required this.resulttext,
       @required this.interpretation});
 
-  String bmiresult;
-  String resulttext;
-  String interpretation;
+  final String bmiresult;
+  final String resulttext;
+  final String interpretation;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
